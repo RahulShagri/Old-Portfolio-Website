@@ -19,8 +19,7 @@
 						<li><a href="#about" class="active">About Me</a></li>
 						<li><a href="#uav">Unmanned Aerial Vehicles</a></li>
 						<li><a href="#patents">Patent</a></li>
-						<li><a href="#fea">Finite Element Analysis</a></li>
-						<li><a href="#coding">Coding</a></li>
+						<li><a href="#programming">Programming</a></li>
 						<li><a href="#internships">Internship</a></li>
 						<!--Engineering Anslysis [Change pad to 0.79em]-->
 						<li><a href="#contact">Contact</a></li>
@@ -71,7 +70,7 @@
 								<div class="container">
 									<header class="major">
 										<h3 class="icon solid fa-plane">&ensp;Unmanned Aerial Vehicles</h3>
-										<p>As part of the Structures Subsystem of <i><a href="https://aeromit.in/" target="_blank">AeroMIT</a></i>, an interdisciplinary student research project team, I facilitated in designing the structure, building, and flying several UAV prototypes. The fabrication process employed various in-house technologies including laser-cutting, vacuum bagging and hand-layup, and advanced materials such as carbon fiber, glass fiber, balsa and monokote. Following are some of the UAVs my team and I designed.</p>
+										<p>While working as a structures engineer in <i><a href="https://aeromit.in/" target="_blank">AeroMIT</a></i>, an interdisciplinary student research project team, I facilitated in designing the structure, building, and flying several UAV prototypes. The fabrication process employed various in-house technologies including laser-cutting, vacuum bagging and hand-layup, and advanced materials such as carbon fiber, glass fiber, balsa and monokote. Following are some of the UAVs my team and I designed.</p>
 									</header>
 									<div class="features">
 
@@ -149,40 +148,49 @@
 								</div>
 							</section>
 
-						<!-- fea -->
-							<section id="fea">
+						<!-- programming -->
+							<section id="programming">
 								<div class="container">
-									<h3 class="icon solid fa-cogs">&ensp;Finite Element Analysis</h3>
+									<h3 class="icon solid fa-code">&ensp;Programming</h3>
 									<div class="features">
 										<article>
-											<a class="image"><img src="images/2JM2022.png" alt="" /></a>
+											<a href="https://github.com/RahulShagri/1D-Beam-Element-2-DOF-FEM-Solver"  target="_blank" class="image"><img src="images/1D_Beam.png" alt="" /></a>
 											<div class="inner">
-												<h4>Static load test on the <u><a href="https://docs.rs-online.com/e260/0900766b8002e91c.pdf" target="_blank">Britool 2JM2022 Open Jaw Wrench</a></u></h4>
-												<p><b>Objective:</b> To analyse and visualize the deformation and stress loading on the Britool 2JM2022 Open Jaw Wrench.</p>
-												<p><b>Specification:</b><br>Material = Aluminium Alloy<br>Density = 2770 kgm<sup>3</sup><br>Young's Modulous = 0.71 x 10<sup>5</sup> MPa<br><br>Nominal size of the small jaw = 20 mm<br>Nominal size of the large jaw= 22 mm<br>Centre-to-centre distance = 245 mm<br>Jaw thickness = 7.9 mm<br>Shaft thickness = 5 mm<br><br>Boundary conditions: Fixed support at the smaller jaw and static force of 300N at the larger jaw.<br>2% Convergence criteria and max 2 mesh refinement loops.</p>
-												<p><b>Results:</b><br>Max von-misses stress = 228.33 MPa<br>Max deformation = 4.19 mm</p>
+												<h4><a href="https://github.com/RahulShagri/1D-Beam-Element-2-DOF-FEM-Solver"  target="_blank">1 Dimensional Beam Element with 2 Degrees of Freedom FEM Solver</a></h4>
+												<p><b>Description: </b>This solver can be used to analyse 2 degrees of freedom of 1 dimensional problems with beam elements connected in series and having 1D forces acting perpendicular to the axis of the beam.</p>
+
+												<p><b>Solver specifications:</b> Uses the <i>direct stiffness method</i> and assembles the global nodal force vector, global element stiffness matrix, and the global nodal displacement vector and uses the <i>elimination approach</i> on the global relationship after applying all the boundary conditions provided by the user to solve for the unknown nodal displacements and slopes.</p>
+
+												<p><b>Language and Libraries used:</b> Purely written in Python, GUI designed on DearPyGUI, and matrices assembled and solved using NumPy library.</p>
+
+												<p><b><a href="https://github.com/RahulShagri/1D-Beam-Element-2-DOF-FEM-Solver" target="_blank">Check out the source code here.</a></b></p>
 											</div>
 										</article>
-									</div>
-								</div>
-							</section>
+										<article>
+											<a href="https://github.com/RahulShagri/1D-Bar-Element-1-DOF-FEM-Solver"  target="_blank" class="image"><img src="images/1D_Bar.png" alt="" /></a>
+											<div class="inner">
+												<h4><a href="https://github.com/RahulShagri/1D-Bar-Element-1-DOF-FEM-Solver"  target="_blank">1 Dimensional Bar Element with 1 Degree of Freedom FEM Solver</a></h4>
+												<p><b>Description: </b>This solver can be used to analyse 1 degree of freedom of 1 dimensional problems with bar elements connected in series and having 1D forces acting parallel to the axis of the bar.</p>
 
-						<!-- coding -->
-							<section id="coding">
-								<div class="container">
-									<h3 class="icon solid fa-code">&ensp;Coding</h3>
-									<div class="features">
+												<p><b>Solver specifications: </b>It uses the <i>direct stiffness method</i> and assembles the global nodal force vector, global element stiffness matrix, and the global nodal displacement vector and uses the <i>elimination approach</i> on the global relationship after applying all the boundary conditions provided by the user to solve for the unknown nodal displacements.</p>
+												<p>The global strain vector is calculated using the global nodal displacement vector and the element stresses are calculated using the global strain vector and the given young's modulus.</p>
+
+												<p><b>Language and Libraries used: </b>Purely written in Python, GUI designed on DearPyGUI, and matrices assembled and solved using NumPy library.</p>
+
+												<p><b><a href="https://github.com/RahulShagri/1D-Bar-Element-1-DOF-FEM-Solver" target="_blank">Check out the source code here.</a></b></p>
+											</div>
+										</article>
 										<article>
 											<a href="https://github.com/RahulShagri/COVID-19-Desktop-Tracker"  target="_blank" class="image"><img src="images/covid19_02.png" alt="" /></a>
 											<div class="inner">
 												<h4><a href="https://github.com/RahulShagri/COVID-19-Desktop-Tracker"  target="_blank">COVID-19 Desktop Tracker</a></h4>
 												<p><b>Objective:</b> Graphical user interface to retrieve COVID-19 related data such as total cases, deaths and recoveries, country-wise cases, deaths, recoveries and tests, plots of the data, and latest news.</p>
 
-												<p><b>Language and Modules used:</b> Purely written in Python. GUI designed on PyQt. Graphs plotted on matplotlib.</p>
+												<p><b>Language and Libraries used:</b> Purely written in Python. GUI designed on PyQt. Graphs plotted on matplotlib.</p>
 
 												<p><b>APIs used:</b> <a href="https://github.com/disease-sh/API" target="_blank">disease.sh</a>, <a href="https://github.com/AlaeddineMessadi/COVID-19-REPORT-API" target="_blank">COVID-19 Report API</a>, <a href="https://newsapi.org/" target="_blank">News API</a>.</p>
 
-												<p><b><a href="https://github.com/RahulShagri/COVID-19-Desktop-Tracker" target="_blank">Check out the source code.</a></b></p>
+												<p><b><a href="https://github.com/RahulShagri/COVID-19-Desktop-Tracker" target="_blank">Check out the source code here.</a></b></p>
 											</div>
 										</article>
 										<article>
@@ -191,11 +199,11 @@
 												<h4><a href="https://github.com/RahulShagri/Reddit-Statistics"  target="_blank">Reddit Statistics</a></h4>
 												<p><b>Objective:</b> Analysis of the relation between the creation time and the total number of posts that made it to the top 100 of 50 subreddits on <a href="https://www.reddit.com/">Reddit</a>.</p>
 
-												<p><b>Language and Modules used:</b> Purely written in Python. Used PRAW and openpyxl modules.</p>
+												<p><b>Language and Libraries used:</b> Purely written in Python. Used PRAW and openpyxl libraries.</p>
 
 												<p><b>API used:</b> <a href="https://www.reddit.com/dev/api/" target="_blank">Reddit API</a></p>
 
-												<p><b><a href="https://github.com/RahulShagri/Reddit-Statistics" target="_blank">Check out the source code.</a></b></p>
+												<p><b><a href="https://github.com/RahulShagri/Reddit-Statistics" target="_blank">Check out the source code here.</a></b></p>
 											</div>
 										</article>
 									</div>
