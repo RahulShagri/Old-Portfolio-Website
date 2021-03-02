@@ -2,7 +2,7 @@
 
 This website is a brief overview of my past projects.
 
-Please visit the website at https://rahulshagri.github.io/
+You can view the website here: https://rahulshagri.github.io/
 
 <h1>Webpage</h1>
 
