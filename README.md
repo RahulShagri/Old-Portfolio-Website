@@ -6,4 +6,4 @@ You can view the website here: https://rahulshagri.github.io/
 
 <h1>Webpage</h1>
 
-![screenshot](images/webpage_screeshot.JPG)
+![screenshot](images/webpage.gif)
