@@ -8,5 +8,4 @@ You can view the website here: https://rahulshagri.github.io/
 
 ![screenshot](images/webpage.gif)
 
-<i><h4>Credits:</h4>
-Design by  <a href="https://html5up.net/">HTML5 UP</a></i> 
+<i>Design credits: <a href="https://html5up.net/">HTML5 UP</a></i> 
