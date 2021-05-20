@@ -2208,16 +2208,6 @@ input, select, textarea {
 				border-radius: 0;
 			}
 
-        .image.new {
-			display: block;
-			height: 25em;
-			border-radius: 0;
-		}
-
-			.image.new img {
-				border-radius: 0;
-			}
-
 /* List */
 
 	ol {
@@ -2974,10 +2964,6 @@ input, select, textarea {
 				height: 20em;
 			}
 
-			.image.new {
-				height: 25em;
-			}
-
 		/* Header */
 
 			#header {
@@ -3158,10 +3144,6 @@ input, select, textarea {
 
 			.image.main {
 				height: 12em;
-			}
-
-            .image.new {
-				height: 17em;
 			}
 
 		/* Section/Article */
