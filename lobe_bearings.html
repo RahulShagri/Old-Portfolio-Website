@@ -1,0 +1,197 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<title>Rahul Shagrithaya - Lobe Bearings</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/subpages.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="icon" href="images/user-picture.png">
+	</head>
+	<body class="is-preload">
+		<!-- Header -->
+			<section id="header">
+				<header>
+					<h1 id="logo"><a href="https://rahulshagri.github.io/">Rahul Shagrithaya</a></h1>
+				</header>
+				<nav id="nav">
+					<ul>
+						<li><a href="#lobe_bearings_about" class="active"><i class="icon solid fa-info-circle"></i>&nbsp&nbspAbout Lobe Bearings</a></li>
+						<li><a href="#three_lobe_bearings_about" class="active"><i class="icon solid fa-file-alt"></i>&nbsp&nbspAbout Three Lobe Bearings</a></li>
+						<li><a href="#analysis" class="active"><i class="icon solid fa-wind"></i>&nbsp&nbspCFD and FSI Analysis</a></li>
+						<li><a href="#results" class="active"><i class="icon solid fa-file-contract"></i>&nbsp&nbspResults</a></li>
+						<li><a href="#contact"><i class="icon solid fa-envelope"></i>&nbsp&nbspContact</a></li>
+					</ul>
+				</nav>
+				<footer>
+					<ul class="icons">
+						<li><a href="mailto:rahulshagrithaya99@gmail.com" class="icon solid fa-envelope" target="_blank"><span class="label">Email</span></a></li>
+						<li><a href="https://github.com/RahulShagri" class="icon brands fa-github" target="_blank"><span class="label">Github</span></a></li>
+						<li><a href="https://www.linkedin.com/in/rahul-shagri/" class="icon brands fa-linkedin" target="_blank"><span class="label">Github</span></a></li>
+					</ul>
+				</footer>
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- lobe_bearings_about -->
+							<section id="lobe_bearings_about">
+								<div class="image main" data-position="center">
+									<img src="images/lobe_bearing_banner.png" alt="" />
+								</div>
+								<div class="container">
+									<header class="major">
+										<h3 class="icon solid fa-info-circle">&ensp;About Lobe Bearings</h3>
+                                        <p>The standard hydrodynamic journal bearings are widely used because of their simplicity. At high speeds, however, these types of bearings are unstable and can damage the machinery. Non-circular bearings can be used in these cases. Lobe bearings are one such type of non-circular bearings that can significantly increase load carrying capacity and stabilize the shaft.</p>
+									</header>
+								</div>
+							</section>
+
+						<!-- three_lobe_bearings_about -->
+							<section id="three_lobe_bearings_about">
+								<div class="container">
+									<header class="major">
+										<h3 class="icon solid fa-file-alt">&ensp;About Three Lobe Bearings</h3>
+									</header>
+									<div class="features">
+
+                                        <article>
+											<a class="image"><img src="images/three-lobe.jpg" alt="" /></a>
+											<div class="inner">
+
+												<p>These bearings have three lobes placed at 120&deg; to each other, with three 20&deg; grooves between them that have holes on the top that act as the inlet for the lubricant.</p>
+
+												<p>The shaft is offset by a small amount from the centre of the bearing to maintain an eccentricity. The lubricant flows between the shaft's outer surface and the bearing's inner surface and gets pushed out of the system from the sides of the bearing.</p>
+
+											</div>
+										</article>
+									</div>
+								</div>
+							</section>
+
+						<!-- analysis -->
+							<section id="analysis">
+								<div class="container">
+									<header class="major">
+										<h3 class="icon solid fa-wind">&ensp;CFD and FSI Analysis</h3>
+									</header>
+									<p>A system coupled between two-phase (liquid and vapour phase) Computational Fluid Dynamics and two-way Fluid Structure Interaction was used to measure the static pressure of the lubricant on the bearing and the shaft, and the geometrical deformation of the fluid and the solid domain.</p>
+
+									<article>
+										<h4>Three-lobe bearing model and mesh</h4>
+										<img src="images/lobe_bearings02.jpg" style="width:100%" alt="" />
+										<p>A complete model including the bearing, shaft, and fluid domain was modelled on Fusion 360 and meshed on Ansys Workbench.</p>
+									</article>
+
+									<article>
+										<h4>Ansys Workbench Modules</h4>
+										<img src="images/lobe_bearings01.jpg" style="width:100%" alt="" />
+										<p>Static structural and fluent modules coupled together using the system coupling module in Ansys Workbench. The bearing and the shaft model was imported into the static structural module and the fluid domain was imported into the fluent module. </p>
+									</article>
+
+									<article>
+										<h4>Eccentricity ratios and materials used</h4>
+										<p>24 combinations were created using these eccentricity ratios and materials, and analysed and compared.</p>
+
+										<table style="width:100%">
+											<tr>
+												<td><b>Eccentricity ratios</b></td>
+												<td>0.25, 0.4, 0.6, 0.75</td>
+											</tr>
+											<tr>
+												<td><b>Lubricants</b></td>
+												<td>ISO VG32, Water</td>
+											</tr>
+											<tr>
+												<td><b>Bearing Materials</b></td>
+												<td>Brass, Steel, Bronze</td>
+											</tr>
+											<tr>
+												<td><b>Shaft Materials</b></td>
+												<td>Steel</td>
+											</tr>
+										</table>
+									</article>
+
+								</div>
+							</section>
+
+						<!-- results -->
+							<section id="results">
+								<div class="container">
+									<header class="major">
+										<h3 class="icon solid fa-file-contract">&ensp;Results</h3>
+									</header>
+
+									<p>The following data for all the 24 combinations were obtained.</p>
+
+									<ul class="feature-icons">
+										<li class="icon solid fa-check">Static pressure of lubricant</li>
+										<li class="icon solid fa-check">Bearing deformation</li>
+										<li class="icon solid fa-check">Bearing von-misses stress</li>
+									</ul>
+
+									<p>The following trend was observed in the combinations that were compared.</p>
+									<ul>
+										<li>Static pressure, deformation, and von-misses stress increases with an increase in eccentricity ratio</li>
+										<li>ISO VG32 causes higher pressure and stress than Water</li>
+										<li>Deformation and stresses induced in the bearing were least when structural steel was used, followed by bronze, and then brass</li>
+									</ul>
+
+									<article>
+										<h4>Data obtained for 0.75 eccentricity ratio</h4>
+										<p>Similar data was obtained for 0.25, 0.4, and 0.6 eccentricity ratios.</p>
+										<img src="images/lobe_bearings03.jpg" style="width:100%" alt="" />
+									</article>
+
+								</div>
+							</section>
+
+						<!-- contact -->
+							<section id="contact">
+								<div class="container">
+									<h3 class="icon solid fa-envelope">&ensp;Contact</h3>
+									<p>Please feel free to drop a message using the below form or get in touch using the options in the menu on the right.</p>
+									<form method="post" action="https://formspree.io/xpzykvng">
+										<div class="row gtr-uniform">
+											<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
+											<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
+											<div class="col-12"><input type="text" name="subject" id="subject" placeholder="Subject" /></div>
+											<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="6"></textarea></div>
+											<div class="col-12">
+												<ul class="actions">
+													<li><input type="submit" class="primary" value="Send Message" /></li>
+													<li><input type="reset" value="Reset Form" /></li>
+												</ul>
+											</div>
+										</div>
+									</form>
+								</div>
+							</section>
+					</div>
+
+				<!-- Footer -->
+					<section id="footer">
+						<div class="container">
+							<ul class="copyright">
+								<li>&#169; Rahul Shagrithaya. All rights reserved.</li>
+							</ul>
+						</div>
+					</section>
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
